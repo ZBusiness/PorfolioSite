@@ -1,4 +1,4 @@
-window.addEventListener('scroll', function(e){
+window.addEventListener('scroll', function(e){ //Parallax
     const target = document.querySelectorAll('.scroll');
     var scrolled = window.pageYOffset;
     var index = 0, length = target.length;
